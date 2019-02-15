@@ -14,35 +14,12 @@ output:
 ---
 
 ```{r setup, include = FALSE}
+# suppress version number in the subdirectory name
 options(htmltools.dir.version = FALSE)
 
 #load required packages
-library(tidyverse)
-library(lme4)
-library(lmerTest)
-library(here)
-library(rio)
-library(lubridate)
-#install.packages("cowplot")
-library(cowplot)
-#install.packages("wesanderson")
-library(wesanderson)
-library(forcats)
-library(pander)
-#devtools::install_github("gadenbuie/xaringanthemer")
 library(xaringanthemer)
-library(magrittr)
-#devtools::install_github("jaredhuling/jcolors")
 library(jcolors)
-#devtools::install_github("haozhu233/kableExtra")
-library(kableExtra)
-
-#Disable scientific notation
-options(scipen = 999)
-
-knitr::opts_chunk$set(message = FALSE,
-                      warning = FALSE)
-
 ```
 
 ```{r xaringan-themer, include = FALSE}
@@ -52,7 +29,6 @@ mono_accent_inverse(
   header_font_google = google_font("Josefin Sans"),
   text_font_google   = google_font("Montserrat", "300", "300i"),
   code_font_google   = google_font("Droid Mono"))
-
 ```
 
 # The Dataset
