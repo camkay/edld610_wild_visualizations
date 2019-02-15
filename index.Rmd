@@ -1,0 +1,129 @@
+---
+title: "EDLD 610"
+subtitle: "Data visualizations \"in the wild\""  
+author: "Cameron S. Kays"
+date: '`r Sys.Date()`'
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: xaringan-themer.css
+    nature:
+      highlightStyle: github
+      highlightLines: TRUE
+      countIncrementalSlides: TRUE
+---
+
+```{r setup, include = FALSE}
+options(htmltools.dir.version = FALSE)
+
+#load required packages
+library(tidyverse)
+library(lme4)
+library(lmerTest)
+library(here)
+library(rio)
+library(lubridate)
+#install.packages("cowplot")
+library(cowplot)
+#install.packages("wesanderson")
+library(wesanderson)
+library(forcats)
+library(pander)
+#devtools::install_github("gadenbuie/xaringanthemer")
+library(xaringanthemer)
+library(magrittr)
+#devtools::install_github("jaredhuling/jcolors")
+library(jcolors)
+#devtools::install_github("haozhu233/kableExtra")
+library(kableExtra)
+
+#Disable scientific notation
+options(scipen = 999)
+
+knitr::opts_chunk$set(message = FALSE,
+                      warning = FALSE)
+
+```
+
+```{r xaringan-themer, include = FALSE}
+# specify slide font and base color
+mono_accent_inverse(
+  base_color = "#69c3f4",
+  header_font_google = google_font("Josefin Sans"),
+  text_font_google   = google_font("Montserrat", "300", "300i"),
+  code_font_google   = google_font("Droid Mono"))
+
+```
+
+# The Dataset
+
+The [Core Trends Survey](http://www.pewinternet.org/dataset/jan-3-10-2018-core-trends-survey/) (2018) from the [Pew Research Center](http://www.pewresearch.org).
+
+--
+
+- *N* = 2,002
+
+--
+
+- Collected between January 3rd and January 10th, 2018
+
+--
+
+- Conducted by telephone (75.02% cell phone; 24.98% landline)
+
+---
+
+# Tidying the Dataset
+
+Step 1: Import the data.
+
+
+
+--
+
+
+
+---
+
+# Tidying the Dataset
+
+.pull-left[
+
+]
+
+--
+
+.pull-right[
+
+]
+
+---
+
+# Tidying the Dataset
+
+Functional but bulky. 
+
+
+--
+
+Equally functional and far less bulky. 
+
+
+---
+
+# Tidying the Dataset
+
+.pull-left[
+
+]
+
+.pull-right[
+
+]
+
+
+
+---
+class: inverse, middle, center
+
+# The END!

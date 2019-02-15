@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>EDLD 610</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Cameron S. Kay, Stefania R. Ashby, &amp; Ashley L. Miller" />
+    <meta name="date" content="2019-02-15" />
+    <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# EDLD 610
+## Data visualizatiions “in the wild”
+### Cameron S. Kay, Stefania R. Ashby, &amp; Ashley L. Miller
+### 2019-02-15
+
+---
+
+
+
+
+
+
+# The Dataset
+
+The [Core Trends Survey](http://www.pewinternet.org/dataset/jan-3-10-2018-core-trends-survey/) (2018) from the [Pew Research Center](http://www.pewresearch.org).
+
+--
+
+- *N* = 2,002
+
+--
+
+- Collected between January 3rd and January 10th, 2018
+
+--
+
+- Conducted by telephone (75.02% cell phone; 24.98% landline)
+
+---
+
+# Tidying the Dataset
+
+Step 1: Import the data.
+
+
+
+--
+
+
+
+---
+
+# Tidying the Dataset
+
+.pull-left[
+
+]
+
+--
+
+.pull-right[
+
+]
+
+---
+
+# Tidying the Dataset
+
+Functional but bulky. 
+
+
+--
+
+Equally functional and far less bulky. 
+
+
+---
+
+# Tidying the Dataset
+
+.pull-left[
+
+]
+
+.pull-right[
+
+]
+
+
+
+---
+class: inverse, middle, center
+
+# The END!
+    </textarea>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": true
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function() {
+  var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})();</script>
+
+<script>
+(function() {
+  var i, text, code, codes = document.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+})();
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
