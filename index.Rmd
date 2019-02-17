@@ -34,17 +34,78 @@ mono_accent_inverse(
 ![description of the image](images/insight_ds.png)
 
 ---
-
-.pull-right[
-![description of the image](images/insight_ds.png)
-]
-
 .pull-left[
 #### The Audience
 
 * Post-docs interested in data science. 
 ]
 
+.pull-right[
+![description of the image](images/insight_ds.png)
+]
+
+---
+.pull-left[
+#### The Audience
+
+* Post-docs interested in data science. 
+
+#### What is being communicated?
+* There will be great demand for people with analytical talent. 
+]
+
+.pull-right[
+![description of the image](images/insight_ds.png)
+]
+---
+.pull-left[
+#### The Audience
+
+* Post-docs interested in data science. 
+
+#### What is being communicated?
+* There will be great demand for people with analytical talent. 
+
+#### Strengths
+
+* Very detailed
+
+* Use of colour to highlight
+]
+
+.pull-right[
+![description of the image](images/insight_ds.png)
+]
+
+---
+.pull-left[
+#### The Audience
+
+* Post-docs interested in data science. 
+
+#### What is being communicated?
+* There will be great demand for people with analytical talent. 
+
+#### Strengths
+
+* Very detailed
+
+* Use of colour to highlight
+
+#### Areas for improvement
+
+* Axes and gratuitous connecting lines
+
+* Bars
+
+
+
+
+]
+
+.pull-right[
+![description of the image](images/insight_ds.png)
+]
 ---
 
 .right-column[
@@ -138,10 +199,6 @@ mono_accent_inverse(
 .pull-right[
 ![description of the image](images/rescue_time.png)
 ]
----
-
 
 ---
 class: inverse, middle, center
-
-# The END!
