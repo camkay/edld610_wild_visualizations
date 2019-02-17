@@ -31,6 +31,22 @@ mono_accent_inverse(
   code_font_google   = google_font("Droid Mono"))
 ```
 
+![description of the image](images/insight_ds.png)
+
+---
+
+.pull-right[
+![description of the image](images/insight_ds.png)
+]
+
+.pull-left[
+#### The Audience
+
+* Post-docs interested in data science. 
+]
+
+---
+
 .right-column[
 ![description of the image](images/rescue_time.png)
 ]
@@ -115,112 +131,14 @@ mono_accent_inverse(
 
 * Grid lines.
 
+* Point overlap. 
+
 ]
 
 .pull-right[
 ![description of the image](images/rescue_time.png)
 ]
 ---
-
-
-.pull-left[
-
-
-#### What is being communicated?
-
-The relationship between productivity and amount of time spent on the computer. 
-
-#### Strengths
-
-Redundant coding. 
-
-Diverging color scale.
-
-Average day.
-
-#### Areas for improvement
-
-Cognitively demanding y-axis. 
-* Breaks
-* Units
-
-Grid lines.
-]
-
-
----
-.right-column[
-![description of the image](images/rescue_time.png)
-]
-
-.left-column[
-#### Strengths
-
-Redundant coding. 
-
-Diverging color scale.
-
-Average day.
-
-#### Areas for improvement
-
-Cognitively demanding y-axis. 
-* Breaks
-* Units
-
-Grid lines.
-]
-
----
-
-# Tidying the Dataset
-
-Step 1: Import the data.
-
-
-
---
-
-
-
----
-
-# Tidying the Dataset
-
-.pull-left[
-
-]
-
---
-
-.pull-right[
-
-]
-
----
-
-# Tidying the Dataset
-
-Functional but bulky. 
-
-
---
-
-Equally functional and far less bulky. 
-
-
----
-
-# Tidying the Dataset
-
-.pull-left[
-
-]
-
-.pull-right[
-
-]
-
 
 
 ---
