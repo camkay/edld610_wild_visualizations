@@ -157,7 +157,7 @@ mono_accent_inverse(
 
 * Redundant coding. 
 
-* Diverging color scale.
+* Diverging colour scale.
 
 * Average day.
 
@@ -182,7 +182,7 @@ mono_accent_inverse(
 
 * Redundant coding. 
 
-* Diverging color scale.
+* Diverging colour scale.
 
 * Average day.
 
